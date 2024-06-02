@@ -1,6 +1,6 @@
 import { updateCartValue } from "./updateCartValue";
 
-export const getCartProductFromLS = () => {
+export const i = () => {
 
     let cartProducts = localStorage.getItem("cartProductLS"); // get the existing data from local storage
     if (!cartProducts) {
