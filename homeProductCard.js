@@ -5,6 +5,7 @@ const productContainer = document.querySelector("#productContainer");
 const productTemplate = document.querySelector("#productTemplate");
 
 export const showProductContainer = (products) => {
+    console.log('product', products);
     if (!products) {
         return false;
     }
