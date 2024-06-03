@@ -1,7 +1,7 @@
 import './style.css';
 
 import products from "./api/products.json";
-import { showProductContainer } from './homeProductCard';
+import { showProductContainer } from './homeProductCard.js';
 
 
 // console.log(products)
